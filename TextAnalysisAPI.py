@@ -11,7 +11,8 @@ class ApiClient:
         self.base_url = 'https://eastus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment'
         self.api_key = api_key
 
-    def get_sentiment(self, website):
+    def get_sentiment(self, search):
+        website = 'https://www.google.com/search?q=' + search
         txt = {}
         txt['language'] = 'en'
         txt['id'] = 1
