@@ -26,4 +26,3 @@ def scraper(webpage):
 
     # textdat = tree.xpath('//*[@id="rso"]/div[3]/div/div[1]/div/div/div[2]/div/text()')
     return final_list
-# print(scraper('https://www.google.com/search?q=facebook&rlz=1C1CHBF_enUS823US824&oq=facebook&aqs=chrome..69i57j69i60j0l4.4870j0j4&sourceid=chrome&ie=UTF-8')[0])
