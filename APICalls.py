@@ -32,4 +32,4 @@ def sentiment(keyword):
         retstring = 'The sentiment of: ' +  keyword + ' is ' + str(total/elements)
         return retstring
 
-print(sentiment('Trump'))
+print(sentiment('Hello'))
