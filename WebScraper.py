@@ -24,5 +24,4 @@ def scraper(webpage):
                 if str(content)[:2] != '<b':                
                     final_list.append(content)
 
-    # textdat = tree.xpath('//*[@id="rso"]/div[3]/div/div[1]/div/div/div[2]/div/text()')
     return final_list
