@@ -1,6 +1,6 @@
 # Google Sentiment
 
-Implemented a phrase sentiment analyzer using Microsoft Azure’s Text Analytics API which uses Natural Language Processing to determine the sentiment of keywords/phrases from a JSON input given by my web scraper. Developed a general-purpose web scraper to pull the descriptions of a Google search based on a keyword/phrase
+Implemented a phrase sentiment analyzer ([TextAnalysis.py](TextAnalysis.py)) using Microsoft Azure’s Text Analytics API which uses Natural Language Processing to determine the sentiment of keywords/phrases from a JSON input given by my web scraper. Developed a general-purpose web scraper ([WebScraper.py](WebScraper.py)) to pull the descriptions of a Google search based on a keyword/phrase
 
 ## Getting Started
 
